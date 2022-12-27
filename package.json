@@ -1,0 +1,18 @@
+{
+  "name": "mern-api",
+  "version": "1.0.0",
+  "description": "MERN API for react native project management app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js" 
+  },
+  "author": "March Tala",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1"
+  }
+}
